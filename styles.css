@@ -1,0 +1,193 @@
+/* CSS Document */
+
+body {
+	margin: 0;	
+	background:url(Assets/bg_left_brown.jpg);
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+}
+
+#wrapper {
+	padding-bottom: 10px;	
+	background:url(Assets/bg_bottom.gif) repeat-x bottom left;
+	float: left;
+	width: 100%;
+}
+
+#wrapper_inner {	
+	background:url(Assets/columns.gif) repeat-y top left;
+	margin: 20px;
+	width: 854px;
+	padding-bottom: 5px;
+	float: left;
+	clear: both;
+}
+
+#inner_logo {	
+	background:url(Assets/imperial_logo.jpg) no-repeat bottom left;
+}
+
+#header {
+	background:url(Assets/banner.jpg) no-repeat top left;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+#header h1, #header p {
+	margin: 0;
+	color: #999;
+}
+
+#header p {
+	font-size: 80%;
+	padding-left: 10px;
+	float: left;
+	color: black;
+}
+
+#header h2 {
+	font-size: 105%;
+	background: #630 url(Assets/ornament.png) no-repeat center left;
+	padding-left: 50px;
+	margin: 5px 0;
+	color: white;
+}
+
+#restaurant_menu input[type=submit] {
+	width: 7em; height: 2em;
+	font-size:9px;
+	border-radius: 5px;
+}
+
+#footer {
+	color: #999;
+	font-size: 70%;
+	font-weight: bold;
+	float: left;
+	clear: left;
+	margin-left: 20px;
+}
+
+#menu, #info {
+	float: left;
+	clear: left;
+}
+
+#menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#menu li {
+	margin-bottom: 1px;
+}
+
+#menu a {
+	background:url(Assets/btn0_off.jpg) no-repeat center left;
+	width: 189px;
+	height: 23px;
+	display: block;
+	padding-left: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 80%;
+	color: #FFC;
+}
+
+#menu a:hover {
+	background:url(Assets/btn0_on.jpg) no-repeat center left;
+}
+
+#info {
+	color: #FFC;
+	margin-top: 50px;
+}
+
+#info li {
+	margin-bottom: .5em;
+}
+
+#pageContent {
+	margin-left: 300px;
+	margin-right: 15px;
+	color: white;
+	font-size: 75%;
+}
+
+#footer a {
+	color: #FFF;
+}
+
+#address, #hours, #cc {
+	float: left;
+	margin-right: 15px;
+}
+
+#address p, #hours p {
+	margin: 0;
+}
+
+#cc ul {
+	list-style: none;
+}
+
+#cc li span{
+	display: none;
+}
+
+#cc li {
+	width: 39px;
+	height: 25px;
+	float: left;
+	margin-right: 5px;
+}
+
+#li_amex {
+	background:url(Assets/creditIcon_amexSM.gif);
+	height: 25px;
+}
+
+#li_discover {
+	background:url(Assets/creditIcon_discoverSM.gif);
+}
+
+#li_mc {
+	background:url(Assets/creditIcon_mastercardSM.gif);
+}
+
+#li_visa {
+	background:url(Assets/creditIcon_visaSM.gif);
+}
+
+/* about us */
+#vote {
+	text-align: center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border: 2px solid red;
+	font-size: 80%;
+	width: 300px;
+	margin: 0 auto;
+}
+
+#vote p {
+	font-size: 150%;
+}
+
+#restaurant_menu {
+	background:url(Assets/menu1.jpg);
+	color: black;
+	padding: 10px 25px;
+	min-height: 40em;
+}
+
+#restaurant_menu tr:nth-child(even) {
+	background-color: white;
+}
+
+#restaurant_menu td {
+	border: 1px solid black;
+}
+
+#restaurant_menu h3 {
+	text-transform:uppercase;
+}
